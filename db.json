@@ -1,0 +1,101 @@
+{
+  "complaints": [
+    {
+      "id": "brTh94VhGxvqRhOMpt48Z",
+      "description": "Очень большая жалоба",
+      "name": "Admin1",
+      "subject": "Заголовок жалобы",
+      "status": "answered",
+      "createdAt": "2023-06-02T18:00:58+03:00",
+      "answer": {
+        "name": "Admin1",
+        "text": "Это очень большой ответ...",
+        "createdAt": "2023-06-02T18:01:34+03:00"
+      }
+    },
+    {
+      "id": "M4DrJS2qcCtb3BCuAviGC",
+      "description": "yandsdswad",
+      "name": "Admin1",
+      "subject": "dwsada",
+      "status": "answered",
+      "createdAt": "2023-06-02T18:33:54+03:00",
+      "answer": {
+        "name": "Admin1",
+        "text": "sszcszczs",
+        "createdAt": "2023-06-02T18:34:09+03:00"
+      }
+    },
+    {
+      "id": "SzWpR9HJbNLExYHt22UM1",
+      "description": "Новая жалоба",
+      "name": "Admin1",
+      "subject": "Заголовок",
+      "status": "new",
+      "createdAt": "2023-06-02T20:22:05+03:00",
+      "answer": null
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin1",
+      "email": "admin1@example.com",
+      "password": "Dd123456!",
+      "status": "active",
+      "avatar": "/images/avatar2.png"
+    },
+    {
+      "id": "3",
+      "name": "Admin2",
+      "email": "admin2@example.com",
+      "password": "Dd1234567!",
+      "status": "active",
+      "avatar": "/images/avatar.jpg"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1",
+      "title": "Название урока",
+      "description": "Описание урока",
+      "edges": [
+        "1",
+        "2"
+      ],
+      "link": "url",
+      "user": {
+        "id": "1",
+        "name": "Admin1"
+      },
+      "status": "stop"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "lessonId": "1",
+      "area": "Сфера",
+      "title": "название",
+      "actions": [
+        "действуй"
+      ],
+      "awards": [
+        "награды"
+      ],
+      "date": "2023-06-02T18:34:09+03:00",
+      "images": [],
+      "points": 20
+    }
+  ],
+  "actions": [
+    {
+      "id": "1",
+      "lessonId": "1",
+      "task": "Заработать 100000",
+      "title": "устроиться на работу",
+      "date": "2023-06-02T18:34:09+03:00",
+      "points": 20
+    }
+  ]
+}
